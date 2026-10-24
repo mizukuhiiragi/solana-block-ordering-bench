@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "timestamp_utc": "2026-10-24T21:59:28Z",
+    "epoch": 1067,
+    "spend_cap_sol": 0.05,
+    "total_spent_lamports": 0,
+    "is_dry_run": true,
+    "target_validators_count": 6,
+    "analyzed_blocks_count": 12,
+    "total_transactions_analyzed": 5337
+  },
+  "validators": [
+    {
+      "pubkey": "zeroT6PTAEjipvZuACTh1mbGCqTHgA6i1ped9DcuidX",
+      "version": "4.3.2",
+      "client_name": "Agave / Jito-Solana v4.3.2 (Mainnet Production)",
+      "stake_sol": 221756.618528072
+    },
+    {
+      "pubkey": "Cogent51kHgGLHr7zpkpRjGYFXM57LgjHjDdqXd4ypdA",
+      "version": "4.3.2",
+      "client_name": "Agave / Jito-Solana v4.3.2 (Mainnet Production)",
+      "stake_sol": 503380.235360873
+    },
+    {
+      "pubkey": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+      "version": "26.10.4",
+      "client_name": "Agave CalVer v26.10.4",
+      "stake_sol": 6608866.541600444
+    },
+    {
+      "pubkey": "PRGNnb8DxVcP2WjSHfVRGgc8SkA5u6dbMwoTVV1BGKN",
+      "version": "26.10.4",
+      "client_name": "Agave CalVer v26.10.4",
+      "stake_sol": 291402.881336104
+    },
+    {
+      "pubkey": "FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89",
+      "version": "26.10.3",
+      "client_name": "Custom/Fork (26.10.3)",
+      "stake_sol": 1917963.877610646
+    },
+    {
+      "pubkey": "BRAZAtTTzR2Es8c98hJvcngerTEyRGSdgkHU59n4A6GT",
+      "version": "26.10.3",
+      "client_name": "Custom/Fork (26.10.3)",
+      "stake_sol": 140726.99936372
+    }
+  ],
+  "block_stats": [
+    {
+      "slot": 461010846,
+      "blockhash": "52WTDd4FwWQQnDM64Uy3KgaNYa3TrkWp1nxfcyLGauYe",
+      "leader_pubkey": "zeroT6PTAEjipvZuACTh1mbGCqTHgA6i1ped9DcuidX",
+      "client_version": "4.3.2",
+      "client_name": "Agave / Jito-Solana v4.3.2 (Mainnet Production)",
+      "total_transactions": 456,
+      "fee_spearman_corr": -0.0143,
+      "fee_inversion_rate": 0.3683,
+      "disjoint_write_lock_ratio": 0.1996,
+      "notes": [
+        "Weak/Flat fee correlation (mempool saturation, FIFO burst or high conflict rate)"
+      ]
+    },
+    {
+      "slot": 461010847,
+      "blockhash": "5FeVfjHVLR5tyNkNpVVFBZpwBcuS1zFqexsgCPAmEx6o",
+      "leader_pubkey": "zeroT6PTAEjipvZuACTh1mbGCqTHgA6i1ped9DcuidX",
+      "client_version": "4.3.2",
+      "client_name": "Agave / Jito-Solana v4.3.2 (Mainnet Production)",
+      "total_transactions": 499,
+      "fee_spearman_corr": -0.0449,
+      "fee_inversion_rate": 0.3632,
+      "disjoint_write_lock_ratio": 0.1804,
+      "notes": [
+        "Weak/Flat fee correlation (mempool saturation, FIFO burst or high conflict rate)"
+      ]
+    },
+    {
+      "slot": 461010834,
+      "blockhash": "AkhRDXtXnBjgteMNzHrM8AVQJp3xP5B1UZWv7zScaqCo",
+      "leader_pubkey": "Cogent51kHgGLHr7zpkpRjGYFXM57LgjHjDdqXd4ypdA",
+      "client_version": "4.3.2",
+      "client_name": "Agave / Jito-Solana v4.3.2 (Mainnet Production)",
+      "total_transactions": 517,
+      "fee_spearman_corr": 0.0591,
+      "fee_inversion_rate": 0.3671,
+      "disjoint_write_lock_ratio": 0.1567,
+      "notes": [
+        "Weak/Flat fee correlation (mempool saturation, FIFO burst or high conflict rate)"
+      ]
+    },
+    {
+      "slot": 461010835,
+      "blockhash": "6kHyTkjeDMFo14cGLwxjEiMKR6KPJ1r2rDD7j1r6cwej",
+      "leader_pubkey": "Cogent51kHgGLHr7zpkpRjGYFXM57LgjHjDdqXd4ypdA",
+      "client_version": "4.3.2",
+      "client_name": "Agave / Jito-Solana v4.3.2 (Mainnet Production)",
+      "total_transactions": 697,
+      "fee_spearman_corr": -0.0943,
+      "fee_inversion_rate": 0.4051,
+      "disjoint_write_lock_ratio": 0.1133,
+      "notes": [
+        "Weak/Flat fee correlation (mempool saturation, FIFO burst or high conflict rate)"
+      ]
+    },
+    {
+      "slot": 461011618,
+      "blockhash": "J2342dmiM6QxMDDUkmmBTWoQeiAuya2WV3QWJavG9mCq",
+      "leader_pubkey": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+      "client_version": "26.10.4",
+      "client_name": "Agave CalVer v26.10.4",
+      "total_transactions": 530,
+      "fee_spearman_corr": -0.2623,
+      "fee_inversion_rate": 0.3909,
+      "disjoint_write_lock_ratio": 0.183,
+      "notes": [
+        "Weak/Flat fee correlation (mempool saturation, FIFO burst or high conflict rate)"
+      ]
+    },
+    {
+      "slot": 461011619,
+      "blockhash": "H4mjFKCgwNAA5zikNYGULshhBHtWdZkwA3NvfdyLJ5U6",
+      "leader_pubkey": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+      "client_version": "26.10.4",
+      "client_name": "Agave CalVer v26.10.4",
+      "total_transactions": 642,
+      "fee_spearman_corr": -0.1534,
+      "fee_inversion_rate": 0.4113,
+      "disjoint_write_lock_ratio": 0.1729,
+      "notes": [
+        "Weak/Flat fee correlation (mempool saturation, FIFO burst or high conflict rate)"
+      ]
+    },
+    {
+      "slot": 460992566,
+      "blockhash": "HRncVkynJvDyoYaLxjr2gdw1aP1xu3uUBmhumxNJ3W6m",
+      "leader_pubkey": "PRGNnb8DxVcP2WjSHfVRGgc8SkA5u6dbMwoTVV1BGKN",
+      "client_version": "26.10.4",
+      "client_name": "Agave CalVer v26.10.4",
+      "total_transactions": 322,
+      "fee_spearman_corr": -0.0332,
+      "fee_inversion_rate": 0.3903,
+      "disjoint_write_lock_ratio": 0.2702,
+      "notes": [
+        "Weak/Flat fee correlation (mempool saturation, FIFO burst or high conflict rate)"
+      ]
+    },
+    {
+      "slot": 460992567,
+      "blockhash": "2TRfZsuQ8cgreqR1qjzr8Xx2XRCSPyuGBacigW8rZ2eN",
+      "leader_pubkey": "PRGNnb8DxVcP2WjSHfVRGgc8SkA5u6dbMwoTVV1BGKN",
+      "client_version": "26.10.4",
+      "client_name": "Agave CalVer v26.10.4",
+      "total_transactions": 431,
+      "fee_spearman_corr": 0.0087,
+      "fee_inversion_rate": 0.3687,
+      "disjoint_write_lock_ratio": 0.2343,
+      "notes": [
+        "Weak/Flat fee correlation (mempool saturation, FIFO burst or high conflict rate)"
+      ]
+    },
+    {
+      "slot": 461011670,
+      "blockhash": "74QrBi7xgUiPwGHhVGt65aeYpiFGWk6SHG4hBCaXRCwS",
+      "leader_pubkey": "FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89",
+      "client_version": "26.10.3",
+      "client_name": "Custom/Fork (26.10.3)",
+      "total_transactions": 434,
+      "fee_spearman_corr": -0.0419,
+      "fee_inversion_rate": 0.4339,
+      "disjoint_write_lock_ratio": 0.1935,
+      "notes": [
+        "Weak/Flat fee correlation (mempool saturation, FIFO burst or high conflict rate)"
+      ]
+    },
+    {
+      "slot": 461011671,
+      "blockhash": "FpGj5fPJxq9s7XeoynqWKBEuiWdiq2h28BgygoLRLY5C",
+      "leader_pubkey": "FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89",
+      "client_version": "26.10.3",
+      "client_name": "Custom/Fork (26.10.3)",
+      "total_transactions": 412,
+      "fee_spearman_corr": -0.045,
+      "fee_inversion_rate": 0.4379,
+      "disjoint_write_lock_ratio": 0.1845,
+      "notes": [
+        "Weak/Flat fee correlation (mempool saturation, FIFO burst or high conflict rate)"
+      ]
+    },
+    {
+      "slot": 460998870,
+      "blockhash": "J1VVosLg9YN3vPiHxN4dY7Jf2xAiVNeY1fv2VkAzyckF",
+      "leader_pubkey": "BRAZAtTTzR2Es8c98hJvcngerTEyRGSdgkHU59n4A6GT",
+      "client_version": "26.10.3",
+      "client_name": "Custom/Fork (26.10.3)",
+      "total_transactions": 186,
+      "fee_spearman_corr": 0.1089,
+      "fee_inversion_rate": 0.4771,
+      "disjoint_write_lock_ratio": 0.4247,
+      "notes": [
+        "Weak/Flat fee correlation (mempool saturation, FIFO burst or high conflict rate)"
+      ]
+    },
+    {
+      "slot": 460998871,
+      "blockhash": "8zdYBjDtCy8TELgo7vHduCRMmAcQLHT5Ry9zu58zbgR1",
+      "leader_pubkey": "BRAZAtTTzR2Es8c98hJvcngerTEyRGSdgkHU59n4A6GT",
+      "client_version": "26.10.3",
+      "client_name": "Custom/Fork (26.10.3)",
+      "total_transactions": 211,
+      "fee_spearman_corr": 0.0497,
+      "fee_inversion_rate": 0.4615,
+      "disjoint_write_lock_ratio": 0.3555,
+      "notes": [
+        "Weak/Flat fee correlation (mempool saturation, FIFO burst or high conflict rate)"
+      ]
+    }
+  ]
+}

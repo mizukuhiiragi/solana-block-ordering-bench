@@ -1,0 +1,14 @@
+services:
+  bench:
+    build: .
+    volumes:
+      - ./data:/app/data
+    environment:
+      # Optional: pass keys strictly via environment, never checked into git
+      - SOLANA_RPC_URL=https://solana-rpc.publicnode.com
+      - SOLANA_SPEND_CAP=0.05
+    command: ["--dry-run", "--validators-count", "6", "--blocks-per-validator", "2"]
+
+  test:
+    build: .
+    entrypoint: ["python", "-m", "unittest", "discover", "tests"]
